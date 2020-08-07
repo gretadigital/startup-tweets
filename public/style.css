@@ -1,0 +1,16 @@
+table {
+  height: 100%;
+  width: 92%;
+  zoom: 92%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+th {
+  text-align: center
+}
+
+td {
+  word-wrap: break-word;
+  max-width: 750px;
+}
