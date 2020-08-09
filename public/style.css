@@ -7,7 +7,9 @@ table {
 }
 
 th {
-  text-align: center
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 td {
