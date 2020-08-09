@@ -6,16 +6,15 @@
     <%- include("./partials/nav.ejs") %>
     <div class="mx-4">
       <%- include("./partials/pagination.ejs") %>
-
-      <table id="myTable" class="table table-bordered table-striped table-hover mt-4">
+      <table id="myTable" class="table table-bordered table-striped table-hover mt-4 js-sort-table">
         <thead>
           <tr class="table-primary">
-            <th scope="col">Author</th>
-            <th scope="col">Date</th>
-            <th scope="col">Text</th>
-            <th scope="col">Likes</th>
-            <th scope="col">Retweets</th>
-            <th scope="col">Discussions</th>
+            <th class="js-sort-string" scope="col">Author</th>
+            <th class="js-sort-date" scope="col">Date</th>
+            <th class="js-sort-string" scope="col">Text</th>
+            <th class="js-sort-number" scope="col">Likes</th>
+            <th class="js-sort-number" scope="col">Retweets</th>
+            <th class="js-sort-number" scope="col">Discussions</th>
           </tr>
         </thead>
         <tbody>

@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/:page', function (req, res, next) {
-  let perPage = 10;
+  let perPage = 50;
   let page = req.params.page || 1;
 
   Tweet.find({})

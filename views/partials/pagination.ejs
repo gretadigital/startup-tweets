@@ -21,9 +21,9 @@
     <% } %>
     <% } %>
     <% if (current == pages) { %>
-    <li class="disabled page-item"><a class="page-link">Last</a></li>
+    <li class="disabled page-item"><a class="page-link"><%= pages %></a></li>
     <% } else { %>
-    <li><a class="page-link" href="/<%= pages %>">Last</a></li>
+    <li><a class="page-link" href="/<%= pages %>">Last <%= pages %></a></li>
     <% } %>
   </ul>
   <% } %>
